@@ -7,7 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [Gst Bill Generator](https://github.com/amal-krishna-m-u/invoiceGenerator.git)
+- 🔭 I’m currently working on [StethoConnect](https://github.com/StethoConnect) a digital Stethoscope 
 
 - 🌱 I’m currently learning **React-js and Next-js**
 
