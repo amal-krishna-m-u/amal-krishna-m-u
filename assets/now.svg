@@ -1,41 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" preserveAspectRatio="xMidYMid meet" role="img" aria-label="~/.now — currently building">
-  <style>
-    .mono   { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; }
-    .text   { fill: #F5F5F5; }
-    .muted  { fill: #8B8B8B; }
-    .muted2 { fill: #4A4A4A; }
-    .accent { fill: #A3FF12; }
-  </style>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 140" width="1200" height="140" preserveAspectRatio="xMidYMid meet" role="img" aria-label="now — currently building">
   <!-- left chip -->
-  <rect x="0.5" y="0.5" width="139" height="139" fill="rgba(163,255,18,0.04)" stroke="#A3FF12" stroke-width="1"/>
-  <text class="mono accent" x="22" y="44" font-size="14">~/.now</text>
-  <text class="mono accent" x="22" y="92" font-size="32" font-weight="700">&gt;_</text>
+  <rect x="0.5" y="0.5" width="139" height="139" fill="#0D0D0D" stroke="#A3FF12" stroke-width="1"/>
+  <text x="22" y="44" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">~/.now</text>
+  <text x="22" y="98" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="32" font-weight="700" fill="#A3FF12">&gt;_</text>
 
   <!-- right body -->
   <rect x="139.5" y="0.5" width="1060" height="139" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
 
   <!-- row 1: building -->
-  <g transform="translate(172, 36)">
-    <text class="mono accent" x="0" y="0" font-size="14">building:</text>
-    <text class="mono text"   x="160" y="0" font-size="14">xpar.in</text>
-    <text class="mono muted2" x="360" y="0" font-size="14">#</text>
-    <text class="mono muted"  x="380" y="0" font-size="14">full-time, founder</text>
-  </g>
+  <text x="172" y="40" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">building:</text>
+  <text x="332" y="40" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">xpar.in</text>
+  <text x="532" y="40" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#4A4A4A">#</text>
+  <text x="552" y="40" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#8B8B8B">full-time, founder</text>
 
   <!-- row 2: open_src -->
-  <g transform="translate(172, 70)">
-    <text class="mono accent" x="0" y="0" font-size="14">open_src:</text>
-    <text class="mono text"   x="160" y="0" font-size="14">systemsAndSetup</text>
-    <text class="mono muted2" x="360" y="0" font-size="14">#</text>
-    <text class="mono muted"  x="380" y="0" font-size="14">github.com/amal-krishna-m-u/systemsAndSetup</text>
-  </g>
+  <text x="172" y="74" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">open_src:</text>
+  <text x="332" y="74" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">systemsAndSetup</text>
+  <text x="532" y="74" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#4A4A4A">#</text>
+  <text x="552" y="74" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#8B8B8B">github.com/amal-krishna-m-u/systemsAndSetup</text>
 
   <!-- row 3: exploring -->
-  <g transform="translate(172, 104)">
-    <text class="mono accent" x="0" y="0" font-size="14">exploring:</text>
-    <text class="mono text"   x="160" y="0" font-size="14">on-device LLMs</text>
-    <text class="mono muted2" x="360" y="0" font-size="14">#</text>
-    <text class="mono muted"  x="380" y="0" font-size="14">Qwen 2.5 Coder + Zed + Ollama on M1 8GB</text>
-  </g>
+  <text x="172" y="108" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">exploring:</text>
+  <text x="332" y="108" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">on-device LLMs</text>
+  <text x="532" y="108" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#4A4A4A">#</text>
+  <text x="552" y="108" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#8B8B8B">Qwen 2.5 Coder + Zed + Ollama on M1 8GB</text>
 </svg>

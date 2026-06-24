@@ -1,70 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1200" height="180" preserveAspectRatio="xMidYMid meet" role="img" aria-label="~/.expertise — what I am known for">
-  <style>
-    .mono   { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; }
-    .text   { fill: #F5F5F5; }
-    .muted  { fill: #8B8B8B; }
-    .accent { fill: #A3FF12; }
-  </style>
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1200" height="180" preserveAspectRatio="xMidYMid meet" role="img" aria-label="expertise — known for">
   <!-- Section title -->
-  <g transform="translate(0, 18)">
-    <rect x="0.5" y="0.5" width="27" height="27" fill="#0D0D0D" stroke="#202020"/>
-    <text class="mono accent" x="14" y="20" font-size="14" text-anchor="middle">⚡</text>
-    <text class="mono text" x="40" y="20" font-size="15">~/.expertise</text>
-    <line x1="148" y1="14" x2="1200" y2="14" stroke="#202020" stroke-width="1"/>
-  </g>
+  <rect x="0.5" y="18.5" width="27" height="27" fill="#0D0D0D" stroke="#202020"/>
+  <text x="14" y="38" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12" text-anchor="middle">⚡</text>
+  <text x="40" y="38" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15" fill="#F5F5F5">~/.expertise</text>
+  <line x1="148" y1="32" x2="1200" y2="32" stroke="#202020" stroke-width="1"/>
 
-  <!-- 5 tiles, each 238px wide, gap 1px -->
-  <g transform="translate(0, 60)">
-    <rect x="0.5" y="0.5" width="1199" height="119" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
+  <!-- container -->
+  <rect x="0.5" y="60.5" width="1199" height="119" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
 
-    <!-- divider lines -->
-    <line x1="240" y1="0" x2="240" y2="120" stroke="#202020"/>
-    <line x1="480" y1="0" x2="480" y2="120" stroke="#202020"/>
-    <line x1="720" y1="0" x2="720" y2="120" stroke="#202020"/>
-    <line x1="960" y1="0" x2="960" y2="120" stroke="#202020"/>
+  <!-- divider lines -->
+  <line x1="240" y1="60" x2="240" y2="180" stroke="#202020"/>
+  <line x1="480" y1="60" x2="480" y2="180" stroke="#202020"/>
+  <line x1="720" y1="60" x2="720" y2="180" stroke="#202020"/>
+  <line x1="960" y1="60" x2="960" y2="180" stroke="#202020"/>
 
-    <!-- Tile 1: TS -->
-    <g transform="translate(24, 28)">
-      <rect x="0.5" y="0.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
-      <text class="mono accent" x="22" y="30" font-size="13" font-weight="700" text-anchor="middle">TS</text>
-      <text class="mono text" x="60" y="20" font-size="13">typescript</text>
-      <text class="mono text" x="60" y="38" font-size="13">at scale</text>
-    </g>
+  <!-- Tile 1: TS -->
+  <rect x="24.5" y="88.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
+  <text x="46" y="118" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#A3FF12" text-anchor="middle">TS</text>
+  <text x="84" y="108" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">typescript</text>
+  <text x="84" y="126" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">at scale</text>
 
-    <!-- Tile 2: GO -->
-    <g transform="translate(264, 28)">
-      <rect x="0.5" y="0.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
-      <text class="mono accent" x="22" y="30" font-size="11" font-weight="700" text-anchor="middle">-GO-</text>
-      <text class="mono text" x="60" y="20" font-size="13">go concurrency</text>
-      <text class="mono text" x="60" y="38" font-size="13">patterns</text>
-    </g>
+  <!-- Tile 2: GO -->
+  <rect x="264.5" y="88.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
+  <text x="286" y="118" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#A3FF12" text-anchor="middle">-GO-</text>
+  <text x="324" y="108" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">go concurrency</text>
+  <text x="324" y="126" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">patterns</text>
 
-    <!-- Tile 3: AZ -->
-    <g transform="translate(504, 28)">
-      <rect x="0.5" y="0.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
-      <text class="mono accent" x="22" y="30" font-size="17" text-anchor="middle">⚡</text>
-      <text class="mono text" x="60" y="14" font-size="13">azure functions</text>
-      <text class="mono text" x="60" y="32" font-size="13">cold-start</text>
-      <text class="mono text" x="60" y="50" font-size="13">optimization</text>
-    </g>
+  <!-- Tile 3: AZ -->
+  <rect x="504.5" y="88.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
+  <text x="526" y="118" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#A3FF12" text-anchor="middle">⚡</text>
+  <text x="564" y="102" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">azure functions</text>
+  <text x="564" y="120" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">cold-start</text>
+  <text x="564" y="138" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">optimization</text>
 
-    <!-- Tile 4: AI -->
-    <g transform="translate(744, 28)">
-      <rect x="0.5" y="0.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
-      <text class="mono accent" x="22" y="30" font-size="16" text-anchor="middle">◈</text>
-      <text class="mono text" x="60" y="14" font-size="13">on-device LLM</text>
-      <text class="mono text" x="60" y="32" font-size="13">workflows on</text>
-      <text class="mono text" x="60" y="50" font-size="13">apple silicon</text>
-    </g>
+  <!-- Tile 4: AI -->
+  <rect x="744.5" y="88.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
+  <text x="766" y="118" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="16" fill="#A3FF12" text-anchor="middle">◈</text>
+  <text x="804" y="102" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">on-device LLM</text>
+  <text x="804" y="120" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">workflows on</text>
+  <text x="804" y="138" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">apple silicon</text>
 
-    <!-- Tile 5: DX -->
-    <g transform="translate(984, 28)">
-      <rect x="0.5" y="0.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
-      <text class="mono accent" x="22" y="30" font-size="13" font-weight="700" text-anchor="middle">&gt;_</text>
-      <text class="mono text" x="60" y="14" font-size="13">brutally minimal</text>
-      <text class="mono text" x="60" y="32" font-size="13">dev environments</text>
-      <text class="mono text" x="60" y="50" font-size="13">on 8GB RAM</text>
-    </g>
-  </g>
+  <!-- Tile 5: DX -->
+  <rect x="984.5" y="88.5" width="43" height="43" fill="none" stroke="#A3FF12"/>
+  <text x="1006" y="118" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="700" fill="#A3FF12" text-anchor="middle">&gt;_</text>
+  <text x="1044" y="102" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">brutally minimal</text>
+  <text x="1044" y="120" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">dev environments</text>
+  <text x="1044" y="138" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="13" fill="#F5F5F5">on 8GB RAM</text>
 </svg>

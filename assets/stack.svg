@@ -1,97 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" preserveAspectRatio="xMidYMid meet" role="img" aria-label="~/.stack — tools used">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" preserveAspectRatio="xMidYMid meet" role="img" aria-label="stack — tools used">
   <defs>
-    <pattern id="dm-corner" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+    <pattern id="dmcorner" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
       <circle cx="3" cy="3" r="1" fill="#A3FF12"/>
     </pattern>
   </defs>
-  <style>
-    .mono   { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; }
-    .text   { fill: #F5F5F5; }
-    .muted  { fill: #8B8B8B; }
-    .muted2 { fill: #4A4A4A; }
-    .accent { fill: #A3FF12; }
-  </style>
 
   <!-- Section title -->
-  <g transform="translate(0, 18)">
-    <rect x="0.5" y="0.5" width="27" height="27" fill="#0D0D0D" stroke="#202020"/>
-    <text class="mono accent" x="14" y="20" font-size="14" text-anchor="middle">⎈</text>
-    <text class="mono text" x="40" y="20" font-size="15">~/.stack</text>
-    <line x1="120" y1="14" x2="1200" y2="14" stroke="#202020" stroke-width="1"/>
-  </g>
-
-  <!-- THREE COLUMNS — each 380px wide -->
+  <rect x="0.5" y="18.5" width="27" height="27" fill="#0D0D0D" stroke="#202020"/>
+  <text x="14" y="38" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12" text-anchor="middle">⎈</text>
+  <text x="40" y="38" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15" fill="#F5F5F5">~/.stack</text>
+  <line x1="120" y1="32" x2="1200" y2="32" stroke="#202020" stroke-width="1"/>
 
   <!-- DAILY -->
-  <g transform="translate(0, 64)">
-    <rect x="0.5" y="0.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
-    <g transform="translate(24, 36)">
-      <text class="mono accent" x="0" y="0" font-size="12">&lt;/&gt;</text>
-      <text class="mono accent" x="32" y="0" font-size="12" letter-spacing="2">DAILY</text>
-    </g>
-    <g transform="translate(28, 78)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">typescript</text>
-    </g>
-    <g transform="translate(28, 104)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">next.js</text>
-    </g>
-    <g transform="translate(28, 130)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">react</text>
-    </g>
-    <g transform="translate(28, 156)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">go</text>
-    </g>
-    <g transform="translate(28, 182)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">python</text>
-    </g>
-    <!-- corner dot matrix -->
-    <polygon points="280,216 384,216 384,140" fill="url(#dm-corner)" opacity="0.4"/>
-  </g>
+  <rect x="0.5" y="64.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
+  <text x="24" y="100" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#A3FF12">&lt;/&gt;</text>
+  <text x="56" y="100" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#A3FF12" letter-spacing="2">DAILY</text>
+  <text x="28" y="142" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="50" y="142" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">typescript</text>
+  <text x="28" y="168" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="50" y="168" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">next.js</text>
+  <text x="28" y="194" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="50" y="194" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">react</text>
+  <text x="28" y="220" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="50" y="220" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">go</text>
+  <text x="28" y="246" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="50" y="246" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">python</text>
+  <polygon points="280,280 384,280 384,204" fill="url(#dmcorner)" opacity="0.4"/>
 
   <!-- CLOUD / DEVOPS -->
-  <g transform="translate(408, 64)">
-    <rect x="0.5" y="0.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
-    <g transform="translate(24, 36)">
-      <text class="mono accent" x="0" y="0" font-size="12">☁</text>
-      <text class="mono accent" x="24" y="0" font-size="12" letter-spacing="2">CLOUD / DEVOPS</text>
-    </g>
-    <g transform="translate(28, 78)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">azure functions</text>
-    </g>
-    <g transform="translate(28, 104)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">bicep</text>
-    </g>
-    <g transform="translate(28, 130)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">docker (orbstack)</text>
-    </g>
-    <g transform="translate(28, 156)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">github actions</text>
-    </g>
-    <g transform="translate(28, 182)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">pnpm · gh cli</text>
-    </g>
-    <polygon points="280,216 384,216 384,140" fill="url(#dm-corner)" opacity="0.4"/>
-  </g>
+  <rect x="408.5" y="64.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
+  <text x="432" y="100" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#A3FF12">☁</text>
+  <text x="456" y="100" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#A3FF12" letter-spacing="2">CLOUD / DEVOPS</text>
+  <text x="436" y="142" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="458" y="142" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">azure functions</text>
+  <text x="436" y="168" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="458" y="168" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">bicep</text>
+  <text x="436" y="194" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="458" y="194" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">docker (orbstack)</text>
+  <text x="436" y="220" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="458" y="220" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">github actions</text>
+  <text x="436" y="246" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="458" y="246" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">pnpm · gh cli</text>
+  <polygon points="688,280 792,280 792,204" fill="url(#dmcorner)" opacity="0.4"/>
 
   <!-- AI TOOLING -->
-  <g transform="translate(816, 64)">
-    <rect x="0.5" y="0.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
-    <g transform="translate(24, 36)">
-      <text class="mono accent" x="0" y="0" font-size="12">◈</text>
-      <text class="mono accent" x="24" y="0" font-size="12" letter-spacing="2">AI TOOLING</text>
-    </g>
-    <g transform="translate(28, 78)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">anthropic claude</text>
-    </g>
-    <g transform="translate(28, 104)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">ollama + qwen 2.5 coder</text>
-    </g>
-    <g transform="translate(28, 130)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">mcp</text>
-    </g>
-    <g transform="translate(28, 156)">
-      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">zed</text>
-    </g>
-    <polygon points="280,216 384,216 384,140" fill="url(#dm-corner)" opacity="0.4"/>
-  </g>
+  <rect x="816.5" y="64.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
+  <text x="840" y="100" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#A3FF12">◈</text>
+  <text x="864" y="100" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="12" fill="#A3FF12" letter-spacing="2">AI TOOLING</text>
+  <text x="844" y="142" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="866" y="142" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">anthropic claude</text>
+  <text x="844" y="168" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="866" y="168" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">ollama + qwen 2.5 coder</text>
+  <text x="844" y="194" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="866" y="194" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">mcp</text>
+  <text x="844" y="220" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#A3FF12">&gt;</text>
+  <text x="866" y="220" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="14" fill="#F5F5F5">zed</text>
+  <polygon points="1096,280 1200,280 1200,204" fill="url(#dmcorner)" opacity="0.4"/>
 </svg>
