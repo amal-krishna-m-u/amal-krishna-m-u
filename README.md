@@ -1,43 +1,53 @@
-<h1 align="center">Hello guys 👋, I'm Amal</h1>
-<h3 align="center">A passionate Full Stack developer from India</h3>
+<img src="./assets/hero.svg" alt="$ whoami — amal-krishna-m-u" width="100%" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=amal-krishna-m-u&label=Profile%20views&color=0e75b6&style=flat" alt="amal-krishna-m-u" /> </p>
+<br>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=amal-krishna-m-u" alt="amal-krishna-m-u" /></a> </p>
+<img src="./assets/now.svg" alt="~/.now — currently building" width="100%" />
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+<br>
 
-- 🔭 I’m currently working on [StethoConnect](https://github.com/StethoConnect) a digital Stethoscope 
+## `~/work`
 
-- 🌱 I’m currently learning **React-js and Next-js**
+|     | PROJECT             | DESCRIPTION                                                  | STACK                                  |
+| :-: | :------------------ | :----------------------------------------------------------- | :------------------------------------- |
+| 🟢  | **xpar.in**         | Primary product. Full-time as founder.                       | `TS` · `Next.js` · `Azure`             |
+| 🟣  | **systemsAndSetup** | Reproducible MacBook dev setup. Ollama + Zed + OrbStack.     | `bash` · `plist` · `md`                |
+| ⚫  | **StethoConnect**   | Digital stethoscope — college final-year project (archived). | `embedded` · `python`                  |
 
-- 👨‍💻 All of my projects are available at [https://amalmullangath.tech](https://amalmullangath.tech)
+<br>
 
-- 📝 I regularly write articles on [https://medium.com/@amalmullangathtech](https://medium.com/@amalmullangathtech)
+<img src="./assets/stack.svg" alt="~/.stack — daily tools" width="100%" />
 
-- 💬 Ask me about **Python , GoLang**
+<br>
 
-- 📫 How to reach me **amalkrishnam3@gmail.com**
+<img src="./assets/expertise.svg" alt="~/.expertise — known for" width="100%" />
 
-- 📄 Know about my experiences [https://docs.google.com/document/d/1w_XcpoGfjgA0Rvn1D7TFkjs-pJx-0MmSmrZnQ5BZS-Q/edit?usp=sharing](https://docs.google.com/document/d/1w_XcpoGfjgA0Rvn1D7TFkjs-pJx-0MmSmrZnQ5BZS-Q/edit?usp=sharing)
+<br>
 
-- ⚡ Fun fact **I know Ambitious Card routine**
+## `> git log --stat`
 
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="left" height="180" src="https://github-readme-stats.vercel.app/api?username=amal-krishna-m-u&show_icons=true&hide=stars&include_all_commits=true&hide_border=false&bg_color=070707&title_color=A3FF12&text_color=F5F5F5&icon_color=A3FF12&border_color=202020&card_width=420" alt="commits" />
+</a>
+<img align="left" height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=amal-krishna-m-u&hide_border=false&background=070707&stroke=202020&ring=A3FF12&fire=A3FF12&currStreakLabel=A3FF12&currStreakNum=F5F5F5&sideNums=F5F5F5&dates=8B8B8B&sideLabels=8B8B8B&border=202020" alt="streak" />
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/amal-krishna-m-u-4055a1185" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="amal-krishna-m-u-4055a1185" height="30" width="40" /></a>
-<a href="https://medium.com/@amalmullangathtech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@amalmullangathtech" height="30" width="40" /></a>
-</p>
+<br clear="all" />
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://codeigniter.com" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg" alt="codeigniter" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs?username=amal-krishna-m-u&layout=compact&hide_border=false&bg_color=070707&title_color=A3FF12&text_color=F5F5F5&border_color=202020&langs_count=8&card_width=480" alt="top languages" />
+</a>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=amal-krishna-m-u&show_icons=true&locale=en&layout=compact" alt="amal-krishna-m-u" /></p>
+---
 
+<table width="100%">
+<tr>
+<td align="left"><code>&gt; Build. Ship. Iterate.</code></td>
+<td align="right"><code>EOF</code></td>
+</tr>
+</table>
 
-
-
+<!--
+  contact: founder@xpar.in
+  site:    https://xpar.in
+  github:  amal-krishna-m-u
+-->

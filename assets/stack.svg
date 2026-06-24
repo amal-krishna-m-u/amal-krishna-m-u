@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" preserveAspectRatio="xMidYMid meet" role="img" aria-label="~/.stack — tools used">
+  <defs>
+    <pattern id="dm-corner" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="#A3FF12"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono   { font-family: ui-monospace, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, monospace; }
+    .text   { fill: #F5F5F5; }
+    .muted  { fill: #8B8B8B; }
+    .muted2 { fill: #4A4A4A; }
+    .accent { fill: #A3FF12; }
+  </style>
+
+  <!-- Section title -->
+  <g transform="translate(0, 18)">
+    <rect x="0.5" y="0.5" width="27" height="27" fill="#0D0D0D" stroke="#202020"/>
+    <text class="mono accent" x="14" y="20" font-size="14" text-anchor="middle">⎈</text>
+    <text class="mono text" x="40" y="20" font-size="15">~/.stack</text>
+    <line x1="120" y1="14" x2="1200" y2="14" stroke="#202020" stroke-width="1"/>
+  </g>
+
+  <!-- THREE COLUMNS — each 380px wide -->
+
+  <!-- DAILY -->
+  <g transform="translate(0, 64)">
+    <rect x="0.5" y="0.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
+    <g transform="translate(24, 36)">
+      <text class="mono accent" x="0" y="0" font-size="12">&lt;/&gt;</text>
+      <text class="mono accent" x="32" y="0" font-size="12" letter-spacing="2">DAILY</text>
+    </g>
+    <g transform="translate(28, 78)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">typescript</text>
+    </g>
+    <g transform="translate(28, 104)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">next.js</text>
+    </g>
+    <g transform="translate(28, 130)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">react</text>
+    </g>
+    <g transform="translate(28, 156)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">go</text>
+    </g>
+    <g transform="translate(28, 182)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">python</text>
+    </g>
+    <!-- corner dot matrix -->
+    <polygon points="280,216 384,216 384,140" fill="url(#dm-corner)" opacity="0.4"/>
+  </g>
+
+  <!-- CLOUD / DEVOPS -->
+  <g transform="translate(408, 64)">
+    <rect x="0.5" y="0.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
+    <g transform="translate(24, 36)">
+      <text class="mono accent" x="0" y="0" font-size="12">☁</text>
+      <text class="mono accent" x="24" y="0" font-size="12" letter-spacing="2">CLOUD / DEVOPS</text>
+    </g>
+    <g transform="translate(28, 78)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">azure functions</text>
+    </g>
+    <g transform="translate(28, 104)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">bicep</text>
+    </g>
+    <g transform="translate(28, 130)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">docker (orbstack)</text>
+    </g>
+    <g transform="translate(28, 156)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">github actions</text>
+    </g>
+    <g transform="translate(28, 182)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">pnpm · gh cli</text>
+    </g>
+    <polygon points="280,216 384,216 384,140" fill="url(#dm-corner)" opacity="0.4"/>
+  </g>
+
+  <!-- AI TOOLING -->
+  <g transform="translate(816, 64)">
+    <rect x="0.5" y="0.5" width="383" height="215" fill="#0D0D0D" stroke="#202020" stroke-width="1"/>
+    <g transform="translate(24, 36)">
+      <text class="mono accent" x="0" y="0" font-size="12">◈</text>
+      <text class="mono accent" x="24" y="0" font-size="12" letter-spacing="2">AI TOOLING</text>
+    </g>
+    <g transform="translate(28, 78)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">anthropic claude</text>
+    </g>
+    <g transform="translate(28, 104)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">ollama + qwen 2.5 coder</text>
+    </g>
+    <g transform="translate(28, 130)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">mcp</text>
+    </g>
+    <g transform="translate(28, 156)">
+      <text class="mono accent" x="0" y="0" font-size="14">&gt;</text><text class="mono text" x="22" y="0" font-size="14">zed</text>
+    </g>
+    <polygon points="280,216 384,216 384,140" fill="url(#dm-corner)" opacity="0.4"/>
+  </g>
+</svg>
